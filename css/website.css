@@ -27,7 +27,7 @@
 /*banner*/
 .banner{width: 100%;overflow: hidden;}
 .banner .img-box{height: 100%;}
-.banner img,.our-hardware-banner img,.data-download-box img{width: 100%;}
+.banner img,.our-hardware-banner img,.data-download-box img{display:block;width: 100%;}
 .banner .banner-text{width:1200px;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto auto;}
 .banner .banner-text1{height: 584px;background: url(../img/banner-text1.png) left center no-repeat;background-size: 380px 250px;}
 .banner .banner-text2{height: 198px;background: url(../img/banner-text2.png) center top no-repeat;background-size:380px 143px;top: -236px;}
@@ -37,7 +37,7 @@
 .banner .swiper-pagination-bullet-active{background: #fff;}
 
 /*我们的优势*/
-.our-advantage-box{}
+.our-advantage-box{background-color: #f5f5f5;}
 .our-advantage{width:100%;margin-top: 122px;}
 .our-advantage li{width: 25%;float: left;}
 .our-advantage .img-box{width: 100%;height: 350px;position: relative;}
@@ -47,7 +47,7 @@
 .our-advantage .text-title{height: 88px;line-height:88px;}
 
 /*我们的产品*/
-.our-product-box{width: 100%;background-color: #f5f5f5;overflow: hidden;}
+.our-product-box{width: 100%;overflow: hidden;}
 .tab-opera-box{width: 1112px;padding:0px 44px;height: 44px;margin:90px auto 96px;position: relative;}
 .tab-opera-box .tab-opera{width: 100%;height: 100%;}
 .tab-opera-box li{cursor:pointer;width: 25%;float:left;height: 100%;font:22px/44px 微软雅黑;text-align: center;color: #666;}
@@ -81,7 +81,7 @@
 .tab-con-box .text-con{color: #666;}
 
 /*智慧通行*/
-.our-hardware-box{width: 100%;overflow: hidden;}
+.our-hardware-box{width: 100%;overflow: hidden;background-color: #f5f5f5;}
 .our-hardware-banner{width: 100%;margin: 83px auto 95px;}
 .our-hardware-banner .swiper-container-horizontal>.swiper-pagination-bullets, .our-hardware-banner .swiper-pagination-custom, .our-hardware-banner .swiper-pagination-fraction{bottom: 0px;}
 .our-hardware-banner .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 10px;}
@@ -95,12 +95,11 @@
 
 
 /*资料下载*/
-.data-download-box-pc{display: none;}
-.data-download-box-mobile{display: none;}
 .data-download-box{width: 100%;height: 521px;margin: 100px auto;}
 .data-download-box .text-box{margin-top: 35px;}
 .data-download-box .text-con{font: 24px/36px 微软雅黑;color: #1a1a1a;}
 .icon-download{cursor:pointer;width: 48px;height: 48px;background: url(../img/icon-download.png) no-repeat;background-size: 100% 100%;position: absolute;top: 282px;right: 20px;}
+.icon-download a{display: block;width: 100%;height: 100%;}
 
 /*公司简介*/
 .company-profile-bg{background-image: url(http://img.guostory.com/company-profile-bg.png);}

@@ -24,6 +24,7 @@
 .nav li:last-child{border: none;}
 .nav a{display:block;width: 100%;height: 100%;font: .28rem/1rem 微软雅黑;color: #333;text-indent: .5rem;}
 .nav .selected a{color: #fda414;}
+.nav .nav-data-download-mobile{display: none;}
 .header .telephone{width: 6.9rem;height: 1rem;margin: 0rem auto;}
 .open-nav-btn{width: .5rem;height: .24rem;margin:.38rem .5rem 0rem 0rem;float: right;}
 .open-nav-btn .line{width: 100%;height: .04rem;border-radius: .2rem;background-color: #666;}
@@ -157,10 +158,6 @@
 
 /*资料下载*/
 .data-download-box-pc{display: none;}
-.data-download-box-mobile{display: none;}
-.data-download-box-mobile .text-box{overflow: hidden;margin-top: .28rem;}
-.data-download-box-mobile .text-con{color: #1a1a1a;}
-.icon-download{cursor:pointer;width: .48rem;height: .48rem;background: url(../img/icon-download.png) no-repeat;background-size: 100% 100%;position: absolute;bottom: .2rem;right: .2rem;}
 
 /*公司简介*/
 .company-profile-bg{background-image: url(http://img.guostory.com/company-profile-bg-mobile.png);height: 14.12rem;}
