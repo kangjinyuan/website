@@ -6,11 +6,12 @@ var gulp = require("gulp"),
 	convertEncoding = require('gulp-convert-encoding');
 
 //定义js源文件路径
-var postUrl = "js/website.js",
+var websiteJs = "js/website.js",
 	//css文件路径
-	websitecss = "css/website.css";
+	websiteCss = "css/website.css",
+	websiteMobile = "css/websiteMobile.css";
 
-var jsonArr = [postUrl, websitecss];
+var jsonArr = [websiteJs, websiteCss, websiteMobile];
 
 //生成对应的json文件
 //teskName:任务名称

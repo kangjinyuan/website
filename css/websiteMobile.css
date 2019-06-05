@@ -20,9 +20,9 @@
 .header{width: 100%;height: 100%;}
 .logo{width: 1.6rem;height: .52rem;margin:.24rem 0rem 0rem .5rem;float:left;background: url(../img/logo.png) no-repeat;background-size: 100% 100%;}
 .nav{width: 100%;overflow:hidden;border-top: .02rem solid #d0d3d3;background-color:#fff;position: absolute;top: 1rem;left: 0rem;}
-.nav li{width: 6.9rem;height:1rem;margin: 0rem auto;border-bottom: .02rem solid #d0d3d3;font: .28rem/1rem 微软雅黑;color: #333;}
+.nav li{width: 6.9rem;height:1.2rem;margin: 0rem auto;border-bottom: .02rem solid #d0d3d3;font: .30rem/1.2rem 微软雅黑;color: #333;}
 .nav li:last-child{border: none;}
-.nav a{display:block;width: 100%;height: 100%;font: .28rem/1rem 微软雅黑;color: #333;text-indent: .5rem;}
+.nav a{display:block;width: 100%;height: 100%;font: .30rem/1.2rem 微软雅黑;color: #333;text-indent: .5rem;}
 .nav .selected a{color: #fda414;}
 .nav .nav-data-download-mobile{display: none;}
 .header .telephone{width: 6.9rem;height: 1rem;margin: 0rem auto;}
@@ -110,7 +110,7 @@
 .banner{width: 100%;height:10.8rem;overflow: hidden;}
 .banner .img-box{height: 100%;}
 .our-hardware-banner img{width: 100%;}
-.banner img{width: auto;height: 100%;margin: 0rem -50% 0rem -50%;}
+.banner img{width: auto;height: 100%;margin: 0rem -100% 0rem -100%;}
 .banner .banner-text{width:6.9rem;position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto auto;}
 .banner .banner-text1{height: 5.84rem;background: url(../img/banner-text1.png) center center no-repeat;background-size: 5.06rem 3.34rem;}
 .banner .banner-text2{height: 1.98rem;background: url(../img/banner-text2.png) center top no-repeat;background-size:5.28rem 1.98rem;top: -4.5rem;}
@@ -133,7 +133,7 @@
 .our-product-box{width: 100%;overflow: hidden;background-color: #f5f5f5;}
 .tab-opera-box{width: 100%;height: .44rem;margin-top:.6rem;}
 .tab-opera-box li{cursor:pointer;width: 25%;float:left;height: 100%;font:.26rem/.35rem 微软雅黑;text-align: center;color: #666;}
-.tab-opera-box .selected{color: #fda414;font-size: .3rem;}
+.tab-opera-box .selected{color: #fda414;font-size: .32rem;font-weight: bold;}
 .tab-con-box{width: 100%;margin:.6rem auto .8rem;overflow:hidden;}
 .tab-con-box li{display:none;width: 100%;overflow: hidden;}
 .tab-con-box .show{display: block;}
@@ -160,11 +160,13 @@
 .data-download-box-pc{display: none;}
 
 /*公司简介*/
-.company-profile-bg{background-image: url(http://img.guostory.com/company-profile-bg-mobile.png);height: 14.12rem;}
-.company-profile-box{width: 4.8rem;margin: .28rem auto 0rem;}
-.company-profile-box .img-box{width: 4.8rem;height: 4.8rem;}
-.company-profile-box .img-box img{display:block;width: 100%;height: 100%;}
-.company-profile{width: 4.3rem;overflow:hidden;padding: .3rem .25rem;background-color: #fff;box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-webkit-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-moz-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-o-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-ms-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);}
+.company-profile-box{background-color:#f5f5f5;overflow: hidden;}
+.company-profile-box .title-box{position: absolute;top: 0;left: 0;}
+.company-profile-img{width: 100%;}
+.company-profile-img img{display:block;width: 100%;}
+.company-profile{width: 4.8rem;margin: 0rem auto .38rem;}
+.company-profile .img-box{display:none;}
+.company-profile .text-box{width: 4.3rem;overflow:hidden;padding: .3rem .25rem;background-color: #fff;box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-webkit-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-moz-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-o-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);-ms-box-shadow: 0rem .08rem .2rem 0rem rgba(0, 0, 0, 0.13);}
 .company-profile .text-title{font-size: .28rem;color: #333;}
 .company-profile .text-line{margin: .2rem auto .3rem;}
 .company-profile .text-con{font-size: .26rem;}
@@ -182,13 +184,17 @@
 .partner-box li{cursor:pointer;width: 2.08rem;height:.58rem;margin:0rem .33rem .28rem 0rem;float: left;position: relative;background-color: #f5f5f5;}
 .partner-box li:nth-child(3n){margin-right: 0rem;}
 .partner-box img{position: absolute;top: 0;left: 0;right: 0;bottom: 0;margin: auto auto;}
-.partner-box li:nth-child(1) img{width: 1.36rem;height: .35rem;}
-.partner-box li:nth-child(2) img{width: .58rem;height: .39rem;}
-.partner-box li:nth-child(3) img{width: .79rem;height: .38rem;}
-.partner-box li:nth-child(4) img{width: 1.02rem;height: .32rem;}
-.partner-box li:nth-child(5) img{width: 1.24rem;height: .35rem;}
-.partner-box li:nth-child(6) img{width: 1.71rem;height: .21rem;}
-.partner-box li:nth-child(7) img{width: .81rem;height: .39rem;}
+.partner-box .partner-yl{width: 1.36rem;height: .35rem;}
+.partner-box .partner-gd{width: .58rem;height: .39rem;}
+.partner-box .partner-js{width: 1.02rem;height: .32rem;}
+.partner-box .partner-dezk{width: 1.44rem;height: .34rem;}
+.partner-box .partner-fz{width: 1.24rem;height: .35rem;}
+.partner-box .partner-xm{width: 1.71rem;height: .21rem;}
+.partner-box .partner-hkws{width: .92rem;height: .44rem;}
+.partner-box .partner-dh{width: 1.31rem;height: .4rem;}
+.partner-box .partner-jhzn{width: 1.29rem;height: .4rem;}
+.partner-box .partner-hnwe{width: 1.59rem;height: .3rem;}
+.partner-box .partner-dfh{width: 1.06rem;height: .52rem;}
 
 /*联系我们*/
 .contact-us-bg{background-image: url(http://img.guostory.com/contact-us-bg.png);}
